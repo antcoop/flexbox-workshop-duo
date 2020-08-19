@@ -50,9 +50,17 @@ section {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.price:nth-letter(1) {
+  font-size: 32;
+}
+
 .top-nav {
   padding: 20px;
   display: flex;
+}
+
+.top-nav a {
+  margin-right: 32px;
 }
 
 .info-bar {
@@ -89,6 +97,7 @@ section {
 .deal-items {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .menu-items {
@@ -113,4 +122,12 @@ section {
   font-weight: bold;
   text-decoration: none;
   color: #000;
+}
+
+section {
+  width: 100%;
+}
+
+img {
+  width: 100%;
 }
